@@ -1,8 +1,8 @@
 FROM php:7.1.0-apache
 MAINTAINER Synctree App Force <appforce+docker@synctree.com>
 
-ENV MEDIAWIKI_VERSION 1.24
-ENV MEDIAWIKI_FULL_VERSION 1.24.2
+ENV MEDIAWIKI_VERSION 1.27
+ENV MEDIAWIKI_FULL_VERSION 1.27.1
 
 RUN set -x; \
     apt-get update \
